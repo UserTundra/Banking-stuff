@@ -1,1 +1,9 @@
 c:\Users\Дарья\documents\visual studio 2015\Projects\Wallet\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\Test.dll
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\Test.pdb
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\Wallet.exe
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\Wallet.pdb
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\obj\Debug\Test.dll
+C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\obj\Debug\Test.pdb

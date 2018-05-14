@@ -53,6 +53,12 @@
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wallet\Wallet.csproj">
+      <Project>{D2AEB569-03FA-47AC-BDD9-C1628DA73EC7}</Project>
+      <Name>Wallet</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
