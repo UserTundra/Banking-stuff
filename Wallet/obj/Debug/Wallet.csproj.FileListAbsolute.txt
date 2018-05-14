@@ -1,0 +1,6 @@
+c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\bin\Debug\Wallet.exe.config
+c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\bin\Debug\Wallet.exe
+c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\bin\Debug\Wallet.pdb
+c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\obj\Debug\Wallet.csprojResolveAssemblyReference.cache
+c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\obj\Debug\Wallet.exe
+c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\obj\Debug\Wallet.pdb
