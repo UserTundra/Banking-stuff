@@ -7,3 +7,15 @@ C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\
 C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\obj\Debug\Test.dll
 C:\Users\Дарья\Documents\Visual Studio 2015\Projects\Wallet\Test\obj\Debug\Test.pdb
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\Test.dll
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\Test.pdb
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\Wallet.exe
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\Wallet.pdb
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\Wallet.exe.config
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\obj\Debug\Test.csproj.CopyComplete
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\obj\Debug\Test.dll
+C:\учеба\C# MVC\TESTS\Banking-stuff\Test\obj\Debug\Test.pdb

@@ -4,3 +4,10 @@ c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\bin\Debu
 c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\obj\Debug\Wallet.csprojResolveAssemblyReference.cache
 c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\obj\Debug\Wallet.exe
 c:\users\дарья\documents\visual studio 2015\Projects\Wallet\Wallet\obj\Debug\Wallet.pdb
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\bin\Debug\Wallet.exe.config
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\bin\Debug\Wallet.exe
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\bin\Debug\Wallet.pdb
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\obj\Debug\Wallet.csprojResolveAssemblyReference.cache
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\obj\Debug\Wallet.csproj.CoreCompileInputs.cache
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\obj\Debug\Wallet.exe
+C:\учеба\C# MVC\TESTS\Banking-stuff\Wallet\obj\Debug\Wallet.pdb

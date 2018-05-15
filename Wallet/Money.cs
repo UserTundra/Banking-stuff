@@ -10,20 +10,21 @@ namespace Wallet
     {
         
         private Dictionary<string, int> account = new Dictionary<string, int>();
-        int currentMoney;   
+        private Bank _bank;
+        int currentMoneySumm = 0;   
         
 
-        public Money()
+        public Money(Bank bank)
         {
-            
+            _bank = bank;
         }
 
-        public int getKeys()
+        public int GetKeys()
         {
             return account.Keys.Count;
         }
 
-        public int getMoney(string currency)
+        public int GetMoney(string currency)
         {
             if (account.Keys.Contains(currency))
                 return account[currency];
@@ -31,7 +32,7 @@ namespace Wallet
 
         }
 
-        public void add(string currency, int money)
+        public void Add(string currency, int money)
         {
             if (account.Keys.Contains(currency))
             {
@@ -43,7 +44,7 @@ namespace Wallet
             }
         }
 
-        public void remove(string currency, int money)
+        public void Remove(string currency, int money)
         {
             if (account.Keys.Contains(currency))
             {
@@ -65,12 +66,9 @@ namespace Wallet
             else throw new ArgumentException();            
         }
 
-        public void toString()
+        public override string ToString()
         {
-            foreach (var item in account)
-            {
-                Console.Write("{ " + item.Value + " " + item.Key + " }");
-            }
+            return "{ "+String.Join(", ", account.Select(x => x.Value + " " + x.Key)) + " }";   
         }
     }
 }
