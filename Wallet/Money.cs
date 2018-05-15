@@ -23,9 +23,12 @@ namespace Wallet
             return account.Keys.Count;
         }
 
-        public int getValues(string key)
+        public int getMoney(string currency)
         {
-            return account[key];
+            if (account.Keys.Contains(currency))
+                return account[currency];
+            else return 0;
+
         }
 
         public void add(string currency, int money)
@@ -42,7 +45,32 @@ namespace Wallet
 
         public void remove(string currency, int money)
         {
-            
+            if (account.Keys.Contains(currency))
+            {
+                int m = account[currency];
+                if (money > m)
+                {
+                    throw new ArgumentException();
+                }
+                else if (money == m)
+                {
+                    account.Remove(currency);
+                }
+                else
+                {
+                    account[currency] -= money;
+                }
+                
+            }
+            else throw new ArgumentException();            
+        }
+
+        public void toString()
+        {
+            foreach (var item in account)
+            {
+                Console.Write("{ " + item.Value + " " + item.Key + " }");
+            }
         }
     }
 }
