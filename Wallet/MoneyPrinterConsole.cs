@@ -8,7 +8,7 @@ namespace Wallet
 {
     public class MoneyPrinterConsole
     {
-        public void Print(String operation, String currency, int amount)
+        public virtual void Print(String operation, String currency, int amount)
         {
             Console.Write(operation + " " + currency + " " + amount);
         }
