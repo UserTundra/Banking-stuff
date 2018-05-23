@@ -9,57 +9,61 @@ namespace Wallet
     public class Money
     {
         
-        private Dictionary<string, int> account = new Dictionary<string, int>();
+        private Dictionary<string, int> _account = new Dictionary<string, int>();
         private Bank _bank;
-        int currentMoneySumm = 0;   
+        private MoneyPrinterConsole _moneyPrinter;
         
+        public Money() { }
 
-        public Money(Bank bank)
+        public Money(Bank bank, MoneyPrinterConsole moneyPrinter)
         {
+            _moneyPrinter = moneyPrinter;
             _bank = bank;
         }
 
         public int GetKeys()
         {
-            return account.Keys.Count;
+            return _account.Keys.Count;
         }
 
         public int GetMoney(string currency)
         {
-            if (account.Keys.Contains(currency))
-                return account[currency];
+            if (_account.Keys.Contains(currency))
+                return _account[currency];
             else return 0;
 
         }
 
         public void Add(string currency, int money)
         {
-            if (account.Keys.Contains(currency))
+            _moneyPrinter.Print("inserting", currency, money);
+            if (_account.Keys.Contains(currency))
             {
-                account[currency] += money;
+                _account[currency] += money;
             }
             else
             {
-                account.Add(currency, money);
+                _account.Add(currency, money);
             }
         }
 
         public void Remove(string currency, int money)
         {
-            if (account.Keys.Contains(currency))
+            _moneyPrinter.Print("removing", currency, money);
+            if (_account.Keys.Contains(currency))
             {
-                int m = account[currency];
+                int m = _account[currency];
                 if (money > m)
                 {
                     throw new ArgumentException();
                 }
                 else if (money == m)
                 {
-                    account.Remove(currency);
+                    _account.Remove(currency);
                 }
                 else
                 {
-                    account[currency] -= money;
+                    _account[currency] -= money;
                 }
                 
             }
@@ -68,7 +72,12 @@ namespace Wallet
 
         public override string ToString()
         {
-            return "{ "+String.Join(", ", account.Select(x => x.Value + " " + x.Key)) + " }";   
+            return "{ "+String.Join(", ", _account.Select(x => x.Value + " " + x.Key)) + " }";   
+        }
+
+        public int GetTotalMoney(string currency)
+        {
+            return _account.Sum(x => _bank.Convert(x.Key, currency, x.Value));
         }
     }
 }

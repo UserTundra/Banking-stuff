@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wallet
 {
-    class MoneyPrinterConsole
+    public class MoneyPrinterConsole
     {
         public void Print(String operation, String currency, int amount)
         {
